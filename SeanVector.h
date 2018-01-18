@@ -1,19 +1,20 @@
 #pragma once
 
-class SeanVector {
+class MyVector {
 	public:
-	    SeanVector();
-		SeanVector(int);
-		
+		MyVector();
+		MyVector(int);
+
 		int size();
 		int capacity();
-		int clear();
+		void clear();
 		void push_back(int v);
 		int at(int i);
-		
-		~SeanVector();
+
+		~MyVector();
 	private:
 		int CAPACITY;
 		int ARROW;
 		int* svArrayPtr;
+		int* svArrayPtrBackup; // Used to copy contents of original array when we are growing the array size.
 };
