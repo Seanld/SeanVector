@@ -1,5 +1,12 @@
+#include <iostream>
+#include "SeanVector.h"
+
+using namespace std;
+
 int main() {
-	
-	
-	return 0;
+    SeanVector vec;
+    
+    cout << vec.capacity() << endl;
+    
+    return 0;
 }
