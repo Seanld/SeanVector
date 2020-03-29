@@ -1,2 +1,3 @@
 # SeanVector
-My own personal attempt at making a Vector class in C++.
+
+A data type, comparable to an array, that doubles in size once its capacity has been reached.
